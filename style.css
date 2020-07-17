@@ -1,0 +1,331 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../coverpagepic.jpg);
+  height: 100vh;
+  background-size:cover;
+  background-position: center;
+}
+
+ul{
+  float:right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color:#000;
+
+
+}
+
+ul li.active a{
+  background-color: #fff;
+  color:#000;
+}
+
+.title{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 70px;
+}
+
+.title h1:hover{
+  transition: all .2s ease-in-out;
+  font-size: 90px;
+}
+
+
+.button{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color:#000;
+}
+
+.recipepage{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(../recipebackground.jpg);
+  height: 100vh;
+  background-size:cover;
+  background-position: center;
+  font-style: Century Gothic;
+}
+.recipepage2{
+  background-color: #008B8B;
+  height: 100vh;
+  width: 100%;
+}
+
+.recipetitle h1{
+  color: #FFFF;
+  position: fixed;
+  top: 12%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+}
+
+
+.recipeopener{
+  font-size: 18px;
+  color: #f792a0;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.column{
+  flex:25%;
+  margin-top: 30px;
+  padding:10px;
+
+}
+
+.row{
+  display:flex;
+  text-align: center;
+}
+
+.column h2{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.column h2 a{
+  color: #ebb48f;
+}
+
+.column h3{
+  padding-top: 10px;
+  color: #FFF;
+  font-size: 15px;
+}
+
+.smoothiepage{
+  background-color:#FFD9B3;
+  height: 100vh;
+  width: 100%;
+  font-family: Century Gothic;
+  text-align: center;
+  text-size: 18px;
+  color:#994D00;
+  overflow-y: scroll;
+}
+
+.smoothiepage img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  padding-top: 160px;
+}
+
+.smoothiebutton{
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+}
+
+
+.workoutpage{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../workoutbackground.jpg);
+  height: 100vh;
+  background-size:cover;
+  background-position: center;
+  font-family: Century Gothic;
+  text-align: center;
+  text-size: 18px;
+  color:#FFFF;
+}
+
+.workouttitle{
+  color: #FFFF;
+  position: fixed;
+  text-align: center;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.workoutopener{
+  font-size: 18px;
+  color: #ffcce0;
+  text-align: center;
+  padding-top: 180px;
+}
+
+
+
+.workoutcolumn{
+  flex:25%;
+  margin-top: 30px;
+  padding:20px;
+
+}
+
+.workoutcolumn h2{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.workoutcolumn h2 a{
+  color: #89A7D9;
+}
+
+
+.workoutcolumn h3{
+  padding-top: 10px;
+  color: #FFF;
+  font-size: 15px;
+}
+
+.workoutonepage{
+  background-color:#ff4d94;
+  height: 100vh;
+  width: 100%;
+  font-family: Century Gothic;
+  text-align: center;
+  text-size: 18px;
+  color:#fff;
+  overflow-y: scroll;
+}
+
+.workoutonepage img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  padding-top: 160px;
+}
+
+.workoutonebutton{
+  position: fixed;
+  top: 5%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+}
+
+
+.hikingpage{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../hikingbackground.jpg);
+  height: 100vh;
+  background-size:cover;
+  background-position: center;
+  font-family: Century Gothic;
+  text-align: center;
+  text-size: 18px;
+  color:#FFFF;
+}
+
+.hikingtitle{
+  color: #FFFF;
+  position: absolute;
+  text-align: center;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.hikingopener{
+  font-size: 18px;
+  color: #b8aaf0;
+  text-align: center;
+  padding-top: 180px;
+}
+
+
+.hikingcolumn{
+  flex:25%;
+  margin-top: 30px;
+  padding:30px;
+
+}
+
+.hikingcolumn h2{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.hikingcolumn h2 a{
+  color: #8ddae3;
+}
+
+
+.hikingcolumn h3{
+  padding-top: 10px;
+  color: #FFF;
+  font-size: 15px;
+}
+
+.contactmepage{
+  background-color:#b3b3b3;
+  height: 100vh;
+  width: 100%;
+  font-family: Century Gothic;
+  text-align: center;
+  color:#fff;
+}
+
+.contacttitle{
+  color: #ff3385;
+  position: absolute;
+  text-align: center;
+  top: 275px;
+  left: 65%;
+  transform: translate(-50%,-50%);
+}
+
+
+.contactmepage img{
+  border-radius: 50%;
+  width:20%;
+  margin-top: 140px;
+  margin-right: 10%;
+}
+
+.contactopener{
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
