@@ -1,3 +1,5 @@
 # Body-Positivity
 
-URL: file:///Users/megan/Desktop/bodyPositivity/index.html
+URL: https://meganandree88.github.io/Body-Positivity/
+
+This site was created using HTML and CSS.
